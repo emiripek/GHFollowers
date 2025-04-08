@@ -21,6 +21,7 @@
 		F9605A0B2D63BBFE00D756E1 /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9605A0A2D63BBFE00D756E1 /* GFRepoItemVC.swift */; };
 		F9605A0D2D63BD9000D756E1 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9605A0C2D63BD9000D756E1 /* GFFollowerItemVC.swift */; };
 		F9605A102D63CF0300D756E1 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9605A0F2D63CF0300D756E1 /* Date+Ext.swift */; };
+		F9762FF62DA459BB007D1660 /* FollowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9762FF52DA459BB007D1660 /* FollowerView.swift */; };
 		F99088642D690F82005F5613 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99088632D690F82005F5613 /* PersistenceManager.swift */; };
 		F99088662D693FFB005F5613 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99088652D693FFB005F5613 /* FavoriteCell.swift */; };
 		F99088692D6A091C005F5613 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99088682D6A091C005F5613 /* GFTabBarController.swift */; };
@@ -62,6 +63,7 @@
 		F9605A0A2D63BBFE00D756E1 /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		F9605A0C2D63BD9000D756E1 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		F9605A0F2D63CF0300D756E1 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		F9762FF52DA459BB007D1660 /* FollowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerView.swift; sourceTree = "<group>"; };
 		F99088632D690F82005F5613 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		F99088652D693FFB005F5613 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		F99088682D6A091C005F5613 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
@@ -180,6 +182,15 @@
 			path = ItemInfoVCs;
 			sourceTree = "<group>";
 		};
+		F9762FF42DA45998007D1660 /* FollowerCell */ = {
+			isa = PBXGroup;
+			children = (
+				F9C706182D186A4200C406C3 /* FollowerCell.swift */,
+				F9762FF52DA459BB007D1660 /* FollowerView.swift */,
+			);
+			path = FollowerCell;
+			sourceTree = "<group>";
+		};
 		F99088672D6A08EE005F5613 /* TabBarControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,7 +293,7 @@
 		F9C706172D186A2800C406C3 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				F9C706182D186A4200C406C3 /* FollowerCell.swift */,
+				F9762FF42DA45998007D1660 /* FollowerCell */,
 				F99088652D693FFB005F5613 /* FavoriteCell.swift */,
 			);
 			path = Cells;
@@ -391,6 +402,7 @@
 				F9605A102D63CF0300D756E1 /* Date+Ext.swift in Sources */,
 				F9C706132D184AD300C406C3 /* NetworkManager.swift in Sources */,
 				F99344372D16FDB2001B5796 /* UIViewController+Ext.swift in Sources */,
+				F9762FF62DA459BB007D1660 /* FollowerView.swift in Sources */,
 				F9605A072D63B34800D756E1 /* GFItemInfoView.swift in Sources */,
 				F993443D2D1705AD001B5796 /* GFAlertContainerView.swift in Sources */,
 				F9351F2D2D6B47F6007A7659 /* UITableView+Ext.swift in Sources */,
