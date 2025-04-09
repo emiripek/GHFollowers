@@ -46,6 +46,14 @@ class FollowerListVC: GFDataLoadingVC {
         navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
+    override func updateContentUnavailableConfiguration(using state: UIContentUnavailableConfigurationState) {
+        if isSearching && filteredFollowers.isEmpty {
+            contentUnavailableConfiguration = UIContentUnavailableConfiguration.search()
+        } else {
+            contentUnavailableConfiguration = nil
+        }
+    }
+    
     func configureViewController() {
         view.backgroundColor = .systemBackground
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -101,7 +109,6 @@ class FollowerListVC: GFDataLoadingVC {
             DispatchQueue.main.async { self.showEmptyStateView(with: message, in: self.view) }
             return
         }
-        
         self.updateData(on: self.followers)
     }
     
@@ -136,7 +143,6 @@ class FollowerListVC: GFDataLoadingVC {
                 } else {
                     presentDefaultError()
                 }
-                
                 dismissLoadingView()
             }
         }
@@ -198,6 +204,7 @@ extension FollowerListVC: UISearchResultsUpdating {
         isSearching = true
         filteredFollowers = followers.filter { $0.login.lowercased().contains(filter.lowercased()) }
         updateData(on: filteredFollowers)
+        setNeedsUpdateContentUnavailableConfiguration()
     }
 }
 
