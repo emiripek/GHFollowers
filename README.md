@@ -1,5 +1,7 @@
-GitHub Followers App
+# GitHub Followers App
+
 This iOS application is designed to view GitHub users' followers. After entering a username, it lists the relevant GitHub user's followers and displays their detailed information.
+
 Features
 
 Search followers by GitHub username
@@ -19,18 +21,16 @@ DiffableDataSource
 URLSession
 MVC (Model-View-Controller)
 
-Installation
+## Screenshots
 
-Clone the repository
-
-bashgit clone https://github.com/emiripek/GHFollowers
-
-Open the project with Xcode
-
-bashcd GHFollowers
-open GHFollowers.xcodeproj
-
-Run the application (⌘+R)
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.17.png" width="30%" alt="Home Screen">
+    <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.21.png" width="30%" alt="Home Screen Dark">
+ <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.32.png" width="30%" alt="">
+ <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.36.png" width="30%" alt="">
+ <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.25.02.png" width="30%" alt="">
+ <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.25.07.png" width="30%" alt="">
+</div>
 
 Architecture
 The application is structured using the MVC (Model-View-Controller) design pattern:
@@ -38,17 +38,6 @@ The application is structured using the MVC (Model-View-Controller) design patte
 Model: Represents user and follower data retrieved from the GitHub API
 View: User interface components (hybrid UIKit and SwiftUI structure)
 Controller: Classes that manage communication between Model and View
-
-Screenshots
-https://github.com/emiripek/GHFollowers/blob/bdff7f6d1302dc52a6234f21958fdc679f45b7f0/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.17.png
-https://github.com/emiripek/GHFollowers/blob/bdff7f6d1302dc52a6234f21958fdc679f45b7f0/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.21.png
-https://github.com/emiripek/GHFollowers/blob/bdff7f6d1302dc52a6234f21958fdc679f45b7f0/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.21.png
-https://github.com/emiripek/GHFollowers/blob/bdff7f6d1302dc52a6234f21958fdc679f45b7f0/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.36.png
-https://github.com/emiripek/GHFollowers/blob/bdff7f6d1302dc52a6234f21958fdc679f45b7f0/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.25.02.png
-https://github.com/emiripek/GHFollowers/blob/bdff7f6d1302dc52a6234f21958fdc679f45b7f0/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.25.07.png
-
-Application Components
-UIKit Components
 
 Custom CollectionView
 DiffableDataSource implementation
