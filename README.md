@@ -24,8 +24,8 @@ MVC (Model-View-Controller)
 ## Screenshots
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.17.png" width="30%" alt="Home Screen">
-    <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.21.png" width="30%" alt="Home Screen Dark">
+    <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Screenshots/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.17.png" width="30%" alt="Home Screen">
+    <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Screenshots/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.21.png" width="30%" alt="Home Screen Dark">
  <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.32.png" width="30%" alt="">
  <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.24.36.png" width="30%" alt="">
  <img src="https://raw.githubusercontent.com/emiripek/GHFollowers/refs/heads/main/Simulator%20Screenshot%20-%20iPhone%2011%20-%202025-04-09%20at%2019.25.02.png" width="30%" alt="">
